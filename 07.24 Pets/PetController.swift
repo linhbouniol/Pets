@@ -17,6 +17,9 @@ class PetController {
         createPet(withName: "Pork Bun", type: "Scottish Fold")
         createPet(withName: "Mochi", type: "Bengal")
         createPet(withName: "Neko", type: "Japanese Bobtail")
+        createPet(withName: "Wish List:", type: "Panda")
+        createPet(withName: "Wish List:", type: "Husky")
+        createPet(withName: "Wish List:", type: "Pomeranian")
     }
     
     func createPet(withName name: String, type: String) {
